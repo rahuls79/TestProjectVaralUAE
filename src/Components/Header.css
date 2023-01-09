@@ -1,0 +1,112 @@
+/* @fontface {
+    font-family: 'Lexend Deca';
+    src: url('https://fonts.googleapis.com/css?family=Lexend Deca')
+  } */
+
+/* @import url("https://fonts.googleapis.com/css?family=Lexend Deca"); */
+
+
+
+.Header-full{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Lexend Deca', cursive;
+    margin-bottom: 20px;
+}
+
+.Header-logo{
+    margin-left: 15px;
+}
+
+.Header-buttons{
+    display: flex;
+    margin-right: 15px;
+    font-family: 'Lexend Deca', cursive;
+}
+
+.menu-buttons{
+    display: none;
+}
+
+.dropdown{
+    display: none;
+}
+
+#startCompany {
+    background-color: #454bf2; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    margin: 0 5px 0 5px;
+    cursor: pointer;
+  }
+
+#startCompany:hover{
+    color: black;
+}
+
+.Header-buttons button {
+        border: none;
+        background: transparent;
+        color: rgb(112, 111, 111);
+        padding: 15px 12px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 5px;
+        margin: 0 5px 0 10px;
+        cursor: pointer;
+        font-family: 'Lexend Deca', cursive;
+}
+
+button:hover{
+    color : black;
+}
+
+/* Responsive */
+
+@media (min-width: 30px) and (max-width: 700px) {
+     .Header-buttons{
+        display: none;
+     }
+
+     .menu-buttons{
+        display: block;
+     }
+
+     #menu{
+        background: transparent;
+        border: none;
+        /* width: 52px; */
+        /* height: 45px; */
+        font-size: xx-large;
+        font-weight: 900;
+     }
+
+     .dropdown{
+        display: none;
+     }
+
+     #menu:hover + .dropdown{
+        display: block;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        position: relative;
+        right: -60px;
+        top: 13px;
+     }
+
+     .dropdown button{
+        padding: 10px;
+        background-color: rgba(209, 209, 209, 0.296);
+        border-radius: 8px;
+     }
+     
+  }

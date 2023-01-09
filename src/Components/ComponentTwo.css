@@ -1,0 +1,127 @@
+.ComponentTwo{
+    margin-top: 40px;
+    font-family: 'Noto Sans', cursive;
+}
+
+.videoLine{
+    display: flex;
+    justify-content: center;
+    color: #454bf2;
+}
+
+.videoLine img{
+    width: 15px;
+    height: 15px;
+    top: 15px;
+    border: solid;
+    border-radius: 15px;
+    margin: 0px;
+    padding: 3px;
+    position: relative;
+    /* top: 10px; */
+    margin-left: 5px;
+    border-color: #454bf2;
+}
+
+.missionTag p{
+    color: gray;
+}
+
+.missionTag h2{
+    color: black;
+}
+
+.companies{
+    display: flex;
+    justify-content:center ;
+    margin-top: 80px;
+}
+
+.companies p{
+    color: gray;
+    font-size: 12px;
+}
+
+.companies img{
+    width: 40px;
+    height: 40px;
+}
+
+.companyZoneOne{
+    width: 33%;
+    text-align: left;
+    margin-right: 45px;
+}
+
+.companyZoneTwo{
+    width: 33%;
+    text-align: left;
+    margin-left: 50px;
+    margin-right: 60px;
+}
+
+.companyZoneThree{
+    width: 33%;
+    text-align: left;
+    margin-left: 60px;
+}
+
+#getStarted2{
+    color: goldenrod;
+    font-size: medium;
+    cursor: pointer;
+}
+
+.break1{
+    display: none;
+}
+
+@media (min-width: 300px) and (max-width: 700px) {
+
+.videoLine{
+    display: block;
+}
+
+#videoLine{
+    margin-bottom: 3px;
+    font-size: larger;
+}
+
+.missionTag{
+    margin-top: 35px;
+}
+
+.missionTag p{
+    font-size: medium;
+}
+
+.companies{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.companyZoneThree,.companyZoneOne,.companyZoneTwo{
+    margin-left: 0;
+    margin-right: 0;
+    width: 303px;
+    text-align: center;
+    font-size: larger;
+}
+
+.companies p{
+    text-align: left;
+    font-size: large;
+    width: max-content;
+}
+
+#getStarted2{
+    text-align: center;
+}
+
+.companyZoneThree p{
+    width: 308px;
+
+}
+
+}

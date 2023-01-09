@@ -1,0 +1,242 @@
+.ComponentFour{
+    margin-top: 40px;
+    font-family: 'Noto Sans', cursive;
+}
+
+.listItem{
+    display: flex;
+    justify-content: flex-start;
+}
+
+#itemImage{
+    width: 15px;
+    height: 15px;
+    position: relative;
+    top: 16px;
+    margin-right: 5px;
+}
+
+.ComponentFour p{
+    margin-bottom: 1px;
+}
+
+.ajman,.rackICC,.sharjah{
+    width: 45%;
+    text-align: left;
+    margin: 40px;
+    font-size: small;
+
+}
+
+
+.ajman{
+    margin-left: 40px;
+}
+
+.sharjah{
+    margin-right: 40px;
+}
+
+.priceCategories{
+    display: flex;
+    text-align: left;
+}
+
+.priceCategories h3,h2,p{
+    color : #454bf2;
+}
+
+#continue{
+    position: relative;
+    left:-20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #454bf2;
+    /* border: none; */
+    background: transparent;
+    color: rgb(112, 111, 111);
+    padding: 14px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 2px;
+    margin: 0 5px 0 9px;
+    cursor: pointer;
+    width: 110%;
+}
+
+
+/* Hover */
+
+/* ajman */
+
+.ajman:hover{
+    background: #454bf2; 
+    padding-left: 20px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    border-radius: 8px;
+    width: 45%;
+    margin: 0;
+    height: 560px;
+}
+
+.ajman:hover h3{
+    color: aliceblue;
+}
+
+.ajman:hover h2{
+    color: aliceblue;
+}
+
+.ajman:hover p{
+    color: aliceblue;
+}
+
+.ajman:hover #continue{
+    width: 70%;
+    background-color: aliceblue;
+    left: 23px;
+    border-radius: 7px;
+}
+
+/* rackICC */
+
+.rackICC:hover{
+    background: #454bf2; 
+    padding-left: 20px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    border-radius: 8px;
+    width: 45%;
+    margin: 0;
+    height: 560px;
+}
+
+.rackICC:hover h3{
+    color: aliceblue;
+}
+
+.rackICC:hover h2{
+    color: aliceblue;
+}
+
+.rackICC:hover p{
+    color: aliceblue;
+}
+
+.rackICC:hover #continue{
+    width: 70%;
+    background-color: aliceblue;
+    left: 23px;
+    border-radius: 7px;
+}
+
+
+/* sharjah */
+
+.sharjah:hover{
+    background: #454bf2; 
+    padding-left: 20px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    border-radius: 8px;
+    width: 45%;
+    margin: 0;
+    height: 560px;
+}
+
+/* .sharjah:hover #itemImage{
+    border: solid;
+    border-color: rgba(197, 197, 197, 0.51);
+    border-radius: 15px;
+} */
+
+.sharjah:hover h3{
+    color: aliceblue;
+}
+
+.sharjah:hover h2{
+    color: aliceblue;
+}
+
+.sharjah:hover p{
+    color: aliceblue;
+}
+
+.sharjah:hover #continue{
+    width: 70%;
+    background-color: aliceblue;
+    left: 23px;
+    border-radius: 7px;
+}
+
+
+@media (min-width: 300px) and (max-width: 700px) {
+    .ajman{
+        margin-left: 0;
+    }
+
+    .sharjah{
+        margin-right: 0;
+    }
+    .rackICC{
+        height: auto;
+    }
+    .priceCategories{
+        overflow: scroll;
+    }
+    .ajman:hover{
+        background: #454bf2; 
+        padding-left: 20px;
+        padding-bottom: 5px;
+        padding-right: 10px;
+        border-radius: 8px;
+        width: 45%;
+        margin: 0;
+        height: auto;
+    }
+
+    .ajman:hover #continue{
+        left:6px;
+        text-align: center;
+        font-size: smaller;
+    }
+
+    .rackICC:hover{
+        background: #454bf2; 
+        padding-left: 20px;
+        padding-bottom: 5px;
+        padding-right: 10px;
+        border-radius: 8px;
+        width: 45%;
+        margin: 0;
+        height: auto;
+    }
+
+    .rackICC:hover #continue{
+        left:6px;
+        text-align: center;
+        font-size: smaller;
+    }
+
+    .sharjah:hover{
+        background: #454bf2; 
+        padding-left: 20px;
+        padding-bottom: 5px;
+        padding-right: 10px;
+        border-radius: 8px;
+        width: 45%;
+        margin: 0;
+        height: auto;
+    }
+
+    .sharjah:hover #continue{
+        left:6px;
+        text-align: center;
+        font-size: smaller;
+    }
+
+
+}

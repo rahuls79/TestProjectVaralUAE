@@ -1,0 +1,202 @@
+.componentThree
+{
+    display: flex;
+    margin-top: 50px;
+    font-family: 'Noto Sans', cursive;
+}
+
+.firstHalf{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.secondHalf{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quoteText{
+    margin-bottom: 30px;
+}
+
+#quote{
+    text-align: left;
+    color: black;
+}
+
+#advG-Top{
+    display: none;
+}
+
+
+
+.bankAccountSetup, .uaeCompanySetup, .adviceGuidance, .registration {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid;
+    border-color: rgb(228, 226, 226);
+    border-radius: 10px;
+    /* text-align: left; */
+    font-size: smaller;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 387.3px;
+    width: 301.8px;
+    margin-bottom: 50px;
+    font-size: small;
+}
+
+.uaeCompanySetup{
+    margin-top: 25px;
+}
+
+.bankAccountSetup img,.uaeCompanySetup img, .adviceGuidance img, .registration img{
+    width: 40%;
+}
+
+.bankAccountSetup p, .uaeCompanySetup p, .adviceGuidance p, .registration p{
+    text-align: left;
+    width: 209px;
+    font-size:12px;
+}
+
+.firstHalf h4{
+    position: relative;
+    left: -40px;
+}
+
+.registration h4{
+    position: relative;
+    left: 5px;
+}
+
+.adviceGuidance h4{
+    position: relative;
+    left: -45px;
+}
+
+.registration h4{
+    position: relative;
+    left: -35px;
+    text-align: left;
+
+}
+
+#arrowImage{
+    width: 5%;
+    position: relative;
+    top: -30px;
+    left: -25px;
+}
+
+#learn,#claimQuote,#moreServices{
+    color: blue;
+    cursor: pointer;
+}
+
+.quoteText2{
+    text-align: left;
+    position: relative;
+    left:-20px;
+    
+}
+
+.quoteText2 p{
+    color: black;
+}
+
+#arrow2{
+    width: 5%;
+    position: relative;
+    left:180px;
+    top:-35px;
+}
+
+@media (min-width: 300px) and (max-width: 700px) {
+
+    .componentThree{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .firstHalf{
+        width: 100%;
+    }
+
+    .secondHalf{
+        width: 100%;
+    }
+
+    #quote{
+        font-size: larger;
+        text-align: center;
+    }
+
+    #claimQuote{
+        text-align: center;
+    }
+
+    .bankAccountSetup, .uaeCompanySetup, .adviceGuidance, .registration{
+        padding: 40px;
+        height: 560px;
+    
+    }
+
+    .bankAccountSetup h4, .uaeCompanySetup h4, .adviceGuidance h4, .registrationh4{
+        font-size: x-large;
+    }
+
+    .bankAccountSetup p, .uaeCompanySetup p, .adviceGuidance p, .registration p{
+        font-size: 19px;
+        width: inherit;
+    }
+
+    #learn{
+        font-size: x-large;
+    /* text-align: left; */
+        width: inherit;
+    }
+
+    .bankAccountSetup img,.uaeCompanySetup img, .adviceGuidance img, .registration img{
+        width: 67%;
+    }
+
+    #arrowImage{
+        top: -50px;
+        left: 0;
+        width: 8%;
+    }
+
+    .adviceGuidance{
+        height: 597px;
+    }
+
+    .uaeCompanySetup,.registration,.adviceGuidance{
+        display: none;
+    }
+    
+    #advG-Top{
+        display: block;
+    }
+
+    .quoteText2 p{
+        width: max-content;
+        font-size: larger;
+    }
+
+    #moreServices{
+        font-size: larger;
+    }
+
+    #arrow2{
+        left: 219px;
+        top:-44px;
+        width: 8%;
+    }
+}

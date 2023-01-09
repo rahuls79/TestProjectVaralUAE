@@ -1,0 +1,340 @@
+#line{
+    width: 5%;
+    height: 50%;
+    padding-right: 10px;
+    font-family: 'Noto Sans', cursive;
+}
+
+.readBlog{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.knowUs{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.ComponentFive{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.firstHalfFive{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.secondHalfFive{
+    width: 30%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.satisfied{
+    display: flex;
+    align-items: center;
+    text-align: left;
+
+}
+
+.companyFormation{
+    display: flex;
+    align-items:center ;
+    margin: 15px;
+    margin-left: 0;
+}
+
+#vector{
+    border: solid;
+    padding: 10px;
+    border-color: #454bf2;
+    border-radius: 7px;
+}
+
+.data{
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+#vector{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+
+.data h5{
+    margin: 0;
+}
+
+.data p{
+    margin: 0;
+    font-size: small;
+}
+
+.offshoreCompanyFormation{
+    display: flex;
+    align-items:center ;
+    margin: 15px;
+    margin-left: 0;
+}
+
+.seoDubai{
+    display: flex;
+    align-items:center ;
+    margin: 15px;
+    margin-left: 0;
+
+}
+
+.review1{
+    display: flex;
+    /* align-items:center ; */
+    margin: 15px;
+    margin-left: 0;
+}
+
+.review-image{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 50%;
+    align-items: center;
+}
+
+#user{
+    height: 30px;
+    width: 30px;
+    border: solid;
+    border-color: #454bf2;
+    padding: 8px;
+    border-radius: 50%;
+}
+
+.review-data p{
+    font-size:small;
+    margin: 0;
+    text-align: left;
+    width: inherit;
+    color: black;
+}
+
+.review-data{
+    width: 304px;
+    margin-left: 20px;
+}
+
+.review-data h5{
+    text-align: left;
+}
+/* .review-data h5{
+    margin: 0;
+} */
+
+
+.services h5{
+    margin: 0;
+    text-align: left;
+    margin: 5px;
+    margin-left: 0;
+}
+
+.services p{
+    /* margin: 4px; */
+    text-align: left;
+    margin: 1px;
+    color: gray;
+    font-size: small;
+}
+
+.policies{
+    margin-top: 15px;
+}
+
+.policies h5{
+    margin: 0;
+    text-align: left;
+    margin: 5px;
+    margin-left: 0;
+}
+
+.policies p{
+    margin: 4px;
+    text-align: left;
+    margin: 1px;
+    color: gray;
+    font-size: small;
+}
+
+.about{
+    margin-top: 15px;
+}
+
+.about h5{
+    margin: 0;
+    text-align: left;
+    margin: 5px;
+    margin-left: 0;
+}
+
+.about p{
+    margin: 4px;
+    text-align: left;
+    margin: 1px;
+    color: gray;
+    font-size: small;
+}
+
+.Address{
+    margin-top: 15px;
+}
+
+.Address h5{
+    margin: 0;
+    text-align: left;
+    margin: 5px;
+    margin-left: 0;
+}
+
+.Address p{
+    margin: 4px;
+    text-align: left;
+    margin: 1px;
+    color: gray;
+    font-size: small;
+}
+
+.timing{
+    margin-top: 15px;
+}
+
+.timing p{
+        margin: 4px;
+        text-align: left;
+        margin: 1px;
+        color: gray;
+        font-size: small;
+}
+
+.Subscribe{
+    margin-top: 15px;
+}
+
+.Subscribe h5{
+    margin: 0;
+    text-align: left;
+    margin: 5px;
+    margin-left: 0;
+}
+
+.Subscribe p{
+    margin: 4px;
+    text-align: left;
+    margin: 1px;
+    color: gray;
+    font-size: small;
+}
+
+.EmailSearch{
+    margin-top: 15px;
+}
+
+#emailSearch{
+    padding: 6px;
+    /* outline:1px; */
+    border-style: solid;
+    border-color: rgb(208, 206, 206);
+}
+
+#emailSearch:focus{
+    outline: none;
+}
+
+#email-arrow{
+    width: 30px;
+    height: 34px;
+    position: relative;
+    top: 13px;
+    cursor: pointer;
+}
+
+.social{
+    margin-top: 30px;
+}
+
+.social img{
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.secondHalfFive-mobile{
+    display: none;
+}
+
+@media (min-width: 300px) and (max-width: 700px){
+    .ComponentFive{
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .firstHalfFive{
+        width: 100%;
+    }
+    .secondHalfFive{
+        width: 100%;
+    }
+
+    .readBlog h5{
+        font-size: x-large;
+    }
+    .heading-data{
+        font-size: x-large;
+    }
+    .datap-data p{
+        font-size: large;
+    }
+    #vector{
+        width: 58px;
+        height: 58px;
+        margin-right: 10px;
+    }
+    .satisfied h5{
+        font-size: x-large;
+    }
+
+    .review-data p,.review-data h5{
+        font-size: larger;
+    }
+
+    #user{
+        height: 52px;
+        width: 52px;
+    }
+
+    .review3{
+        display: none;
+    }
+
+    .knowUs{
+        display: none;
+    }
+
+    .secondHalfFive{
+        display: none;
+    }
+
+    .secondHalfFive-mobile{
+        display: flex;
+    }
+    
+}
