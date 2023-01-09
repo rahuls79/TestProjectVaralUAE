@@ -3,13 +3,15 @@
   margin-top: 50px;
   margin-left: 300px;
   margin-right: 300px;
-  overflow-block: hidden;
+  /* overflow-block: hidden; */
+  
 }
 
-@media (min-width: 30px) and (max-width: 700px) {
+@media (min-width: 300px) and (max-width: 700px) {
   .App{
     margin-left: 100px;
   margin-right: 100px;
+  width: 100%;
   }
 }
 

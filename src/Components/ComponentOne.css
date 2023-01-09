@@ -136,7 +136,7 @@
 
     .searchBar-mobile{
         display: block;
-        width: 471.2px;
+        width: 420px;
         height: 50px;
     /* background-image: url(searchicon.jpg); */
     /* background-size: 10px; */
@@ -150,10 +150,11 @@
         margin-top: 2px;
         margin-bottom: 2px;
         position: relative;
-        bottom: -1px;
+        bottom: -6px;
         color: #454bf2;
-        left: -103px;
+        left: -89px;
         font-size: large;
+        
     }
     
     .searchBar-mobile input:focus{
@@ -167,27 +168,29 @@
     .searchBar-mobile img{
         width: 5%;
         position: relative;
-        top: 7px;
+        top: 11px;
         margin-right: 2px;
         margin-left: 5px;
         margin-top: 2px;
         margin-bottom: 2px;
-        left: -101px;
+        left: -84px;
     }
 
 
     .componentOne{
         display: inline-block;
+        width: 420px;
     }
 
     #claimQuote{
         font-weight: 800;
         font-size: x-large;
+        width: 219px;
     }
 
     #getStarted{
-        width: 522px;
-    font-size: 39px;
+        width: 478px;
+        font-size: 33px;
     }
 
     .break1{
@@ -196,7 +199,7 @@
 
     .claimQuote img{
         display: block;
-        width: 507px;
+        width: 423px;
     }
 
     .searchLogo img{

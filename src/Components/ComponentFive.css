@@ -294,6 +294,11 @@
         width: 100%;
     }
 
+    .social img{
+        width: 30px;
+    height: 30px;
+    }
+
     .readBlog h5{
         font-size: x-large;
     }
